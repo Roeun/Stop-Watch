@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E0061415F8925A003E3464 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0061315F8925A003E3464 /* UIKit.framework */; };
+		18E0061615F8925A003E3464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0061515F8925A003E3464 /* Foundation.framework */; };
+		18E0061815F8925A003E3464 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0061715F8925A003E3464 /* CoreGraphics.framework */; };
+		18E0061E15F8925B003E3464 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E0061C15F8925B003E3464 /* InfoPlist.strings */; };
+		18E0062015F8925B003E3464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0061F15F8925B003E3464 /* main.m */; };
+		18E0062415F8925C003E3464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0062315F8925C003E3464 /* AppDelegate.m */; };
+		18E0062715F8925C003E3464 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E0062515F8925C003E3464 /* MainStoryboard.storyboard */; };
+		18E0062A15F8925C003E3464 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0062915F8925C003E3464 /* ViewController.m */; };
+		18E0063215F8A996003E3464 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E0063115F8A996003E3464 /* clock.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E0060F15F8925A003E3464 /* RunningWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E0061315F8925A003E3464 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E0061515F8925A003E3464 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18E0061715F8925A003E3464 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18E0061B15F8925A003E3464 /* RunningWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RunningWatch-Info.plist"; sourceTree = "<group>"; };
+		18E0061D15F8925B003E3464 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18E0061F15F8925B003E3464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E0062115F8925B003E3464 /* RunningWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RunningWatch-Prefix.pch"; sourceTree = "<group>"; };
+		18E0062215F8925B003E3464 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E0062315F8925C003E3464 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E0062615F8925C003E3464 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		18E0062815F8925C003E3464 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E0062915F8925C003E3464 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E0063115F8A996003E3464 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = ../../../../Downloads/clock.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E0060C15F8925A003E3464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0061415F8925A003E3464 /* UIKit.framework in Frameworks */,
+				18E0061615F8925A003E3464 /* Foundation.framework in Frameworks */,
+				18E0061815F8925A003E3464 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E0060415F8925A003E3464 = {
+			isa = PBXGroup;
+			children = (
+				18E0063015F8A981003E3464 /* img */,
+				18E0061915F8925A003E3464 /* RunningWatch */,
+				18E0061215F8925A003E3464 /* Frameworks */,
+				18E0061015F8925A003E3464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E0061015F8925A003E3464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E0060F15F8925A003E3464 /* RunningWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E0061215F8925A003E3464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E0061315F8925A003E3464 /* UIKit.framework */,
+				18E0061515F8925A003E3464 /* Foundation.framework */,
+				18E0061715F8925A003E3464 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E0061915F8925A003E3464 /* RunningWatch */ = {
+			isa = PBXGroup;
+			children = (
+				18E0062215F8925B003E3464 /* AppDelegate.h */,
+				18E0062315F8925C003E3464 /* AppDelegate.m */,
+				18E0062515F8925C003E3464 /* MainStoryboard.storyboard */,
+				18E0062815F8925C003E3464 /* ViewController.h */,
+				18E0062915F8925C003E3464 /* ViewController.m */,
+				18E0061A15F8925A003E3464 /* Supporting Files */,
+			);
+			path = RunningWatch;
+			sourceTree = "<group>";
+		};
+		18E0061A15F8925A003E3464 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E0061B15F8925A003E3464 /* RunningWatch-Info.plist */,
+				18E0061C15F8925B003E3464 /* InfoPlist.strings */,
+				18E0061F15F8925B003E3464 /* main.m */,
+				18E0062115F8925B003E3464 /* RunningWatch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E0063015F8A981003E3464 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				18E0063115F8A996003E3464 /* clock.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E0060E15F8925A003E3464 /* RunningWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E0062D15F8925C003E3464 /* Build configuration list for PBXNativeTarget "RunningWatch" */;
+			buildPhases = (
+				18E0060B15F8925A003E3464 /* Sources */,
+				18E0060C15F8925A003E3464 /* Frameworks */,
+				18E0060D15F8925A003E3464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunningWatch;
+			productName = RunningWatch;
+			productReference = 18E0060F15F8925A003E3464 /* RunningWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E0060615F8925A003E3464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = 18E0060915F8925A003E3464 /* Build configuration list for PBXProject "RunningWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18E0060415F8925A003E3464;
+			productRefGroup = 18E0061015F8925A003E3464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E0060E15F8925A003E3464 /* RunningWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E0060D15F8925A003E3464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0061E15F8925B003E3464 /* InfoPlist.strings in Resources */,
+				18E0062715F8925C003E3464 /* MainStoryboard.storyboard in Resources */,
+				18E0063215F8A996003E3464 /* clock.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E0060B15F8925A003E3464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0062015F8925B003E3464 /* main.m in Sources */,
+				18E0062415F8925C003E3464 /* AppDelegate.m in Sources */,
+				18E0062A15F8925C003E3464 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E0061C15F8925B003E3464 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E0061D15F8925B003E3464 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18E0062515F8925C003E3464 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E0062615F8925C003E3464 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E0062B15F8925C003E3464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E0062C15F8925C003E3464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E0062E15F8925C003E3464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunningWatch/RunningWatch-Prefix.pch";
+				INFOPLIST_FILE = "RunningWatch/RunningWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18E0062F15F8925C003E3464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunningWatch/RunningWatch-Prefix.pch";
+				INFOPLIST_FILE = "RunningWatch/RunningWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E0060915F8925A003E3464 /* Build configuration list for PBXProject "RunningWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E0062B15F8925C003E3464 /* Debug */,
+				18E0062C15F8925C003E3464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E0062D15F8925C003E3464 /* Build configuration list for PBXNativeTarget "RunningWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E0062E15F8925C003E3464 /* Debug */,
+				18E0062F15F8925C003E3464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E0060615F8925A003E3464 /* Project object */;
+}
